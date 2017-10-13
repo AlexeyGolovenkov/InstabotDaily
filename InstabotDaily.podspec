@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author           = "Instabot"
   s.summary          = "Instabot iOS SDK"
   s.description      = <<-DESC
-The ROKO.Mobi SDK provides a means for taking photos, dressing them up in stickers, and sharing the results with the world through FB, Twitter, e-mail, or sms.
+Instabot is a conversion chatbot for mobile apps. Easily create, launch, and edit your bot on the fly, as well as see rich analytics in real-time. Instabot understands users’ needs, and increases conversion and retention rates.
                        DESC
 
   s.source           = { :git => "https://github.com/AlexeyGolovenkov/InstabotDaily.git", :tag => s.version.to_s }
