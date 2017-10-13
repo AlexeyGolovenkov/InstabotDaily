@@ -7,6 +7,7 @@
 //
 
 #import "IBDataItem.h"
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM (NSInteger, IBConversationTreeActionType) {
 	IBConversationTreeActionTypeTextPrompt,
@@ -35,6 +36,12 @@ typedef NS_ENUM (NSInteger, IBConversationTreeActionType) {
 @property (nonatomic, copy) NSArray *multiSelectOptions;
 @property (nonatomic, strong) IBConversationTreeActionSettings *settings;
 @property (nonatomic, strong) NSNumber *contentItemId;
+
+// not the best way to display attached images, but the fastes
+// needs to move this property from action class
+@property (nonatomic, strong) UIImage *attachedImage;
+
+@property (nonatomic, strong) NSString *userResponse;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary saveNodesToMap:(NSMutableDictionary<NSNumber *, IBConversationTreeNode *> *)map;
 
