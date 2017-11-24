@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "InstabotDaily"
-  s.version          = "1.0.23"
+  s.version          = "1.0.24"
   s.license          = 'MPL'
   s.homepage         = "https://github.com/AlexeyGolovenkov/InstabotDaily"
   s.author           = "Instabot"
