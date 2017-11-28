@@ -12,6 +12,7 @@
 @class IBConversationScheme;
 
 extern NSString  * _Nonnull const kIBConversationDidAppear;
+extern NSString  * _Nonnull const kIBConversationDidDisappear;
 
 @interface IBConversationViewController : UIViewController
 
