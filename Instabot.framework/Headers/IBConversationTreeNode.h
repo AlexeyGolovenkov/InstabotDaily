@@ -27,6 +27,7 @@ typedef NS_ENUM(NSInteger, ROKOConversationTreeNodeErrorAction) {
 
 @interface IBConversationTreeNode : IBDataItem
 
+@property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) ROKOConversationTreeNodePromptType promptType;
 @property (nonatomic, copy) NSString *message;
 @property (nonatomic, strong) NSString *image;
