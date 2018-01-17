@@ -23,7 +23,7 @@ typedef NS_ENUM (NSInteger, IBConversationTreeActionType) {
 @class IBConversationTreeActionSettings;
 @class IBFileUploadInfo;
 
-@interface IBConversationTreeAction : IBDataItem
+@interface IBConversationTreeAction : IBDataItem <NSCopying>
 
 @property (nonatomic, assign) IBConversationTreeActionType type;
 @property (nonatomic, assign) IBConversationTreeActionType postActionType;
