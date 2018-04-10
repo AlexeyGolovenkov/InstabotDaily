@@ -8,7 +8,7 @@
 
 #import "IBDataItem.h"
 
-@interface IBUserIcon : IBDataItem
+@interface IBUserIcon : IBDataItem <NSCopying>
 
 @property (nonatomic, copy) NSString *urlString;
 @property (nonatomic, strong) NSDate *urlExpirationDate;

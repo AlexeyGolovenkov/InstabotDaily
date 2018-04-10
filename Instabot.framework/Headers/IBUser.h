@@ -11,7 +11,7 @@
 /**
  *  Stores information about Portal user
  */
-@interface IBUser : IBDataItem
+@interface IBUser : IBDataItem <NSCopying>
 
 /**
  *  Date when user signed up

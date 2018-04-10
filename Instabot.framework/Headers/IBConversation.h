@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "IBConversationViewController.h"
 #import "IBConversationScheme.h"
-#import "IBConversationTreeNode.h"
 #import "InstabotMain.h"
 
 @class IBConversationTree;

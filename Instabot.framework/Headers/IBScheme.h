@@ -31,12 +31,6 @@ extern NSString *const kIBDefaultCloseButtonText;
 
 - (void)loadFromDictionary:(NSDictionary *)dictionary;
 
-// Parsing helpers
-- (UIColor *)decodeColorFromCoder:(NSCoder *)aDecoder forKey:(NSString *)key;
-- (IBDataItem *)dataItemFromDictionary:(NSDictionary *)dictionary withKey:(NSString *)key;
-//- (ROKOFontDataObject *)fontDataObjectFromDictionary:(NSDictionary *)dictionary withKey:(NSString *)key;
-- (UIColor *)colorFromDictionary:(NSDictionary *)dictionary withKey:(NSString *)key;
-
 - (IBScheme *)mergeSchemeWith:(IBScheme *)second;
 
 @end
