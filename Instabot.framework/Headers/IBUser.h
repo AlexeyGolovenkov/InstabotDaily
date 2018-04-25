@@ -54,9 +54,14 @@
 @property (nonatomic, copy, nullable) NSString *updateDate;
 
 /**
- *  Login name
+ *  Display name
  */
 @property (nonatomic, copy, nullable) NSString *name;
+
+/**
+ *  Login name
+ */
+@property (nonatomic, copy, nullable) NSString *username;
 
 /**
  * 	Subscripting
