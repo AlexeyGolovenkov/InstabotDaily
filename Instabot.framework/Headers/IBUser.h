@@ -24,6 +24,11 @@
 @property (nonatomic, copy, nullable) NSString *email;
 
 /**
+ *  User notes
+ */
+@property (nonatomic, copy, nullable) NSString *notes;
+
+/**
  *  Date when user log into app at the first time
  */
 @property (nonatomic, copy, nullable) NSString *firstLoginTime;
